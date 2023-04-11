@@ -29,5 +29,4 @@ func Info(s string) {
 // Warn prints a warning message
 func Warn(s string) {
 	fmt.Println(Yellow + "[WARN] " + Reset + s)
-	os.Exit(1)
 }
